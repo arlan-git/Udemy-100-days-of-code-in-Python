@@ -18,3 +18,10 @@ def jump():
 # Created FOR loop as the jump function needed to be called about 6 times
 for step in range(6):
     jump()
+
+# Using WHILE LOOP to complete task
+number_of_hurdles = 6
+while number_of_hurdles > 0:
+    jump()
+    number_of_hurdles -= 1
+    print(number_of_hurdles)
